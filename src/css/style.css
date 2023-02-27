@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe2b0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  display: inline;
+  margin-right: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.box-1 {
+  background-color: blue;
+  margin-bottom: 100px;
+}
+
+.box-2 {
+  background-color: rgb(160, 21, 21);
+  margin-top: 40px;
+}
+
+li:last-child {
+  margin-right: 0px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+.section-about {
+  background-image: url(../img/01-Картинка-фона.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 640px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.section-about__block {
+  width: 420px;
+  height: 190px;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 213, 178, 0.8) 0%,
+    rgba(234, 156, 65, 0.8) 100%
+  );
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  padding-top: 15px;
+}
+
+.section-about__border {
+  height: 160px;
+  width: 390px;
+  border: 1px solid black;
+  margin: 0 auto;
+  text-align: left;
+  padding: 17px 0 0 28px;
+}
+
+.section-about__tittle {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 9px;
+}
+.section-about__text {
+  font-size: 12px;
+  margin: 0;
+}
+
+.section-icon_box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-icon_box img {
+  margin-right: 70px;
+}
+
+.section-icon_box img:last-child {
+  margin-right: 0px;
+}
+
+.section-description {
+  margin-bottom: 20px;
+}
+
+.section-description__title {
+  margin: 0px;
+  font-size: 96px;
+  text-align: center;
+}
+
+.red {
+  color: rgb(231, 74, 74);
+}
+
+.section-description__text {
+  font-size: 18px;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.section-map {
+  margin-bottom: 20px;
+}
+
+.section-map__title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.line {
+  border-top: 1px solid #999999;
+  width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  height: 100px;
+}
