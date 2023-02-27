@@ -2,6 +2,36 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "Roboto";
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto");
+  src: url(../fonts/Roboto-Regular.ttf);
+  src: url(../fonts/Roboto-LightItalic.woff);
+  src: url(../fonts/Roboto-Regular.eot);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto");
+  src: url(../fonts/Philosopher-Regular.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto");
+  src: url(../fonts/Roboto-Bold.ttf);
+  src: url(../fonts/Roboto-Bold.eot);
+  src: url(../fonts/Roboto-Bold.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+
 body {
   background-color: #ffe2b0;
 }
@@ -27,6 +57,7 @@ a {
   text-decoration: none;
   color: black;
   font-size: 18px;
+  font-weight: 700;
 }
 
 .box-1 {
@@ -83,6 +114,7 @@ nav {
   font-size: 36px;
   margin: 0;
   margin-bottom: 9px;
+  font-weight: 500;
 }
 .section-about__text {
   font-size: 12px;
@@ -110,6 +142,7 @@ nav {
   margin: 0px;
   font-size: 96px;
   text-align: center;
+  font-weight: 500;
 }
 
 .red {
@@ -131,6 +164,7 @@ nav {
   margin-bottom: 20px;
   text-align: center;
   font-size: 36px;
+  font-weight: 500;
 }
 
 .line {
@@ -147,4 +181,8 @@ iframe {
 
 footer {
   height: 100px;
+}
+
+h1 {
+  font-family: "Roboto";
 }
